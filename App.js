@@ -69,8 +69,8 @@ export default function App() {
 
           }
         )} component={Cadastro} />
-        <Stack.Screen name="ResetPassword" options={({ navigation, route })=>(
-          {headerTitle: () => <Text style={styles.title}>Redefinir Senha </Text>, headerTitleAlign: 'center',    headerStyle: {
+        <Stack.Screen name="ResetPassword"  options={({ navigation, route })=>(
+          {headerTitle: () => <Text style={styles.title}>Redefinir Senha</Text>, headerTitleAlign: 'center',    headerStyle: {
             backgroundColor: '#fff',
             elevation:0,
             borderWidth: 0,
